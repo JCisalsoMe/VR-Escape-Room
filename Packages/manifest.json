@@ -11,6 +11,7 @@
     "io.extendreality.tilia.locomotors.axismove.unity": "2.0.10",
     "io.extendreality.tilia.locomotors.teleporter.unity": "2.1.0",
     "io.extendreality.tilia.indicators.objectpointers.unity": "2.1.7",
+    "io.extendreality.tilia.utilities.objectstateswitcher.unity": "2.0.4",
     "com.unity.xr.legacyinputhelpers": "2.1.9",
     "com.unity.collab-proxy": "1.17.2",
     "com.unity.feature.development": "1.0.1",
