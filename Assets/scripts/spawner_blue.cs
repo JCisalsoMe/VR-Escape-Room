@@ -19,7 +19,20 @@ public class spawner : MonoBehaviour
         timeLeft-=Time.deltaTime;
         if(timeLeft<=0)
         {
-            instantiate(objToSpawn, transform.position, Quaternion.indentity);
+            SpawnIt();
+
+            timeLeft=originalTime;
+        }
+
+        if(Input.GetButtonDown("Blue Button"))
+        {
+            SpawnIt();
+        }
+
+        void SpawnIt()
+        {
+            Instantiate(objToSpawn, transform.position, Quaternion.indentity);
         }
     }
 }
+
