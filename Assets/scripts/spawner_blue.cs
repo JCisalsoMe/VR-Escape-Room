@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class spawner : MonoBehaviour
+public class spawner_blue : MonoBehaviour
 {
 
     public GameObject objToSpawn;
