@@ -14,16 +14,16 @@ public class moveDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Star_Door() == true && unlocked == false)
+        if (Door() == true && unlocked == false)
         {
-            Debug.Log(Star_Door());
+            Debug.Log(Door());
 
             gameObject.AddComponent<ConstantForce>().force = new Vector3(1500f,0f,0f);
             unlocked = true;
         }
     }
 
-    private bool Star_Door () {
+    private bool Door () {
         for (int i = 0; i < Star_Door.length; i++)
         {
             partAdded = Star_Door[i].GetComponent<SnapObject>().isSnapped;
