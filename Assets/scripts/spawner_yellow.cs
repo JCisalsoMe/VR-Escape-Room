@@ -24,7 +24,7 @@ public class spawner_yellow : MonoBehaviour
             timeLeft=originalTime;
         }
 
-        if(Input.GetButtonDown("Yellow Button"))
+        if(Input.GetButtonDown("LTD_ButtonYellow"))
         {
             SpawnIt();
         }

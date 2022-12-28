@@ -25,7 +25,7 @@ public class snapObject : MonoBehaviour
         if (objectSnapped == true)
         {
             GetComponent<Rigidbody>(); isKinematic = true;
-            transform.SetParent(rocket.transform);
+            transform.SetParent(Star_Door.transform);
             isSnapped = true;
         }
 

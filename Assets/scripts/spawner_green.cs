@@ -24,7 +24,7 @@ public class spawner_green : MonoBehaviour
             timeLeft=originalTime;
         }
 
-        if(Input.GetButtonDown("Green Button"))
+        if(Input.GetButtonDown("LTD_ButtonGreen"))
         {
             SpawnIt();
         }

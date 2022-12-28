@@ -24,7 +24,7 @@ public class spawner_red : MonoBehaviour
             timeLeft=originalTime;
         }
 
-        if(Input.GetButtonDown("Red Button"))
+        if(Input.GetButtonDown("LTD_ButtonRed"))
         {
             SpawnIt();
         }

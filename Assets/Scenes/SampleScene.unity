@@ -1189,7 +1189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7040976075344879995, guid: 4b7e28f4d3868f8488c6a0258ff1180c, type: 3}
       propertyPath: m_Name
-      value: LTD ButtonRed
+      value: LTD_ButtonRed
       objectReference: {fileID: 0}
     - target: {fileID: 7736847107121358400, guid: 4b7e28f4d3868f8488c6a0258ff1180c, type: 3}
       propertyPath: FirstTouched.m_PersistentCalls.m_Calls.Array.size
@@ -3707,7 +3707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7040976075344879995, guid: 4b7e28f4d3868f8488c6a0258ff1180c, type: 3}
       propertyPath: m_Name
-      value: LTD ButtonGreen
+      value: LTD_ButtonGreen
       objectReference: {fileID: 0}
     - target: {fileID: 7736847107121358400, guid: 4b7e28f4d3868f8488c6a0258ff1180c, type: 3}
       propertyPath: FirstTouched.m_PersistentCalls.m_Calls.Array.size
@@ -5492,7 +5492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7040976075344879995, guid: 4b7e28f4d3868f8488c6a0258ff1180c, type: 3}
       propertyPath: m_Name
-      value: LTD ButtonYellow
+      value: LTD_ButtonYellow
       objectReference: {fileID: 0}
     - target: {fileID: 7736847107121358400, guid: 4b7e28f4d3868f8488c6a0258ff1180c, type: 3}
       propertyPath: FirstTouched.m_PersistentCalls.m_Calls.Array.size
